@@ -47,7 +47,7 @@ e3=ttk.Combobox(root,values=currency_options,justify="center",font="bold")
 b1=tk.Button(root,text="Click",command=clicked,font=("Arial",15,"bold"),bg="gray")
 b1.place(x=130,y=280,width=70)
 
-b2=tk.Button(root, text="Reset",command=reset,font=("Arial",15,"bold"),bg="gray")
+b2=tk.Button(root,text="Reset",command=reset,font=("Arial",15,"bold"),bg="gray")
 b2.place(x=310,y=280,width=70)
 
 e1.place(x=250,y=110,width=200)
